@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/parking.png" type="image/png">
+  <title>ParkingPower</title>
+
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- AOS library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- box icons cdn -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <main class="main-container">
+
+    <!-- The navigation menu  -->
+    <nav class="nav">
+      <span class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu-alt-left"></i>
+      </span>
+
+      <div class="nav__brand">
+        <a href="index.html"><img src="img/parking.png" alt="brand logo"></a>
+      </div>
+
+      <ul class="nav__links">
+        <span id="close">
+          <i class="bx bx-x"></i>
+        </span>
+        <li><a href="#how" class="nav__link">How it works</a></li>
+        <li><a href="#subscription" class="nav__link">Subscription</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="#map" class="nav__link">Location</a></li>
+      </ul>
+
+      <div class="nav__btn">
+        <a href="signup.html" class="signup">Signup</a>
+      </div>
+    </nav>
+    <!-- ends here -->
+
+    <!-- The hero section  -->
+    <div class="hero__section">
+      <section class="hero__text" data-aos="zoom-out">
+        <h2>Let us help you stay out of trouble while parking</h2>
+        <p>Stay out of trouble by getting verified parking spots around lagos by using our app.</p>
+        <a href="signup.html" class="cta">Get started</a>
+      </section>
+      <section class="hero__img" data-aos="zoom-out" data-aos-delay="400">
+        <img src="img/1626563112669.jpg" alt="">
+      </section>
+    </div>
+    <!-- ends here -->
+
+    <!-- How it works section -->
+    <section class="how" id="how">
+      <header>
+        <h4>how it works</h4>
+      </header>
+      <section class="how__steps">
+        <div class="how__one" data-aos="fade-up" data-aos-duration="1000">
+          <span class="step">1</span>
+          <h5 class="headline">Signup</h5>
+          <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magnam?</p>
+        </div>
+        <div class="how__two" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <span class="step">2</span>
+          <h5 class="headline">Park your car</h5>
+          <p class="subtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, omnis?</p>
+        </div>
+        <div class="how__three" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <span class="step">3</span>
+          <h5 class="headline">Rest easy</h5>
+          <p class="subtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, omnis?</p>
+        </div>
+      </section>
+    </section>
+    <!-- ends here -->
+
+    <!-- Subscription section here -->
+    <section class="subscription" id="subscription">
+      <div class="subscription__monthly" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="subscription-img">
+          <img src="img/red-mazda-car.png" alt="subscription img ">
+        </div>
+        <div class="subscription-text">
+          <img src="img/parking.png" alt="brand logo">
+          <h4>Subscribe for only &#x20a6;3,000 monthly</h4>
+          <ul>
+            <li><i class="bx bx-check-shield"></i>Unlimited text messages</li>
+            <li><i class="bx bx-check-shield"></i>Quick repsonses</li>
+          </ul>
+          <a href="#" class="cta">Subscribe</a>
+        </div>
+      </div>
+      <div class="subscription__yearly" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="subscription-img">
+          <img src="img/mazda-car.png" alt="">
+        </div>
+        <div class="subscription-text">
+          <img src="img/parking.png" alt="brand logo">
+          <h4>Subscribe for only &#x20a6;30,000 yearly</h4>
+          <ul>
+            <li><i class="bx bx-check-shield"></i>Unlimited text messages</li>
+            <li><i class="bx bx-check-shield"></i>Quick repsonses</li>
+          </ul>
+          <a href="#" class="cta">Subscribe</a>
+        </div>
+      </div>
+    </section>
+    <!-- ends here -->
+
+    <!-- reviews section here -->
+    <section class="reviews" id="reviews">
+      <h4>Reviews</h4>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide review">
+            <span class="quote">
+              <i class="bx bxs-quote-alt-left"></i>
+            </span>
+            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sint voluptas magnam alias.
+              Doloremque, magni, facilis omnis dolor tempora possimus ex, facere vitae perspiciatis velit asperiores?
+              Eius a provident in, cupiditate, expedita, dolor voluptas consequatur vitae quod unde laudantium
+              necessitatibus est! Possimus corporis saepe quae quibusdam aspernatur odit animi asperiores?</p>
+            <div class="user__info">
+              <h5 class="user__name">John doe</h5>
+              <p class="user__location">Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div class="swiper-slide review">
+            <span class="quote">
+              <i class="bx bxs-quote-alt-left"></i>
+            </span>
+            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sint voluptas magnam alias.
+              Doloremque, magni, facilis omnis dolor tempora possimus ex, facere vitae perspiciatis velit asperiores?
+              Eius a provident in, cupiditate, expedita, dolor voluptas consequatur vitae quod unde laudantium
+              necessitatibus est! Possimus corporis saepe quae quibusdam aspernatur odit animi asperiores?</p>
+            <div class="user__info">
+              <h5 class="user__name">John doe</h5>
+              <p class="user__location">Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div class="swiper-slide review">
+            <span class="quote">
+              <i class="bx bxs-quote-alt-left"></i>
+            </span>
+            <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sint voluptas magnam alias.
+              Doloremque, magni, facilis omnis dolor tempora possimus ex, facere vitae perspiciatis velit asperiores?
+              Eius a provident in, cupiditate, expedita, dolor voluptas consequatur vitae quod unde laudantium
+              necessitatibus est! Possimus corporis saepe quae quibusdam aspernatur odit animi asperiores?</p>
+            <div class="user__info">
+              <h5 class="user__name">John doe</h5>
+              <p class="user__location">Lagos, Nigeria</p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+      </div>
+    </section>
+    <!-- end here -->
+
+    <!-- THE MAP SECTION HERE -->
+    <section class="map" id="map">
+      <div class="map__header">
+        <h4>Locations</h4>
+        <p>Explore using the map to find the nearest available location to you for parking.</p>
+      </div>
+      <div class="map__area">
+
+      </div>
+    </section>
+    <!-- ENDS HERE -->
+
+    <!-- FOOTER SECTION HERE  -->
+    <footer>
+      <div class="footer-brand-logo">
+        <img src="img/parking.png" alt="brand logo of parkingpower">
+      </div>
+      <div class="useful__links">
+        <h6>Useful links</h6>
+        <ul>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#subscription">Subscription</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">location</a></li>
+        </ul>
+      </div>
+      <div class="social__media">
+        <h6>Find us on</h6>
+        <div class="platforms">
+          <a href="#">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!--  END HERE -->
+  </main>
+
+
+  <!-- swiper js  -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      effect: 'slide',
+      speed: 400,
+      slidesPerView: 2,
+      spaceBetween: 50,
+      shortSwipes: true,
+      threshold: 5,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets'
+      },
+      autoplay: {
+        delay: 5000,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 30
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        }
+      }
+    })
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

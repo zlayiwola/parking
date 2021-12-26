@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/parking.png" type="image/png">
+  <title>Signin to ParkingPower</title>
+
+  <!-- box icons cdn -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="signup">
+  <main class="signup-container">
+    <header>
+      <a href="index.html"><img src="img/parking.png" alt="brand logo"></a>
+      <h3>Sign in to ParkingPower</h3>
+    </header>
+    <section class="signup">
+      <form action="" class="signup__form">
+        <div class="input__box">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" inputmode="text" autocomplete="off">
+        </div>
+        <div class="input__box">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" inputmode="text" autocomplete="off">
+          <i class="bx bx-show"></i>
+        </div>
+        <button type="submit" class="cta">Login</button>
+        <p style="text-align: center; margin-top: 20px; font-size: small;">Don't Have An Account? <a style="color: #fbc403; text-decoration: underline;" href="signup.html">SIGN UP</a></p>
+      </form>
+    </section>
+  </main>
+
+
+
+  <script>
+    const passwordToggle = document.querySelector('.bx-show');
+    const passwordField = document.getElementById('password');
+
+    // event listener to toggle password visibility.
+    passwordToggle.addEventListener('click', () => {
+      if (passwordField.type === 'password') {
+        passwordField.type = "text";
+        passwordToggle.className = 'bx bx-hide';
+      } else {
+        passwordField.type = 'password';
+        passwordToggle.className = 'bx bx-show';
+      }
+    })
+  </script>
+</body>
+
+</html>
