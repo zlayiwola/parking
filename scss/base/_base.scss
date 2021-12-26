@@ -1,0 +1,40 @@
+// // montserrat font import
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+//raleway and montserrat font import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  // border: 1px solid red;
+  color: #fff;
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+  
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+
+  &.signup{
+    background-color: $brand-color-blue;
+  }
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.main-container{
+  width: 100%;
+  position: relative;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
